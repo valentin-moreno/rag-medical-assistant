@@ -1,0 +1,95 @@
+VADEMÉCUM MÉDICO DIGITAL — Base de Conocimiento Clínico
+========================================================
+Documento 1: Medicamentos Cardiovasculares
+Fuente: Guías clínicas internacionales adaptadas para uso educativo
+
+METOPROLOL
+Clase: Betabloqueador cardioselectivo
+Indicaciones: Hipertensión arterial, angina de pecho, insuficiencia cardíaca, infarto agudo de miocardio, arritmias supraventriculares, fibrilación auricular con respuesta ventricular rápida.
+Mecanismo: Bloquea selectivamente los receptores beta-1 adrenérgicos, reduciendo la frecuencia cardíaca y la presión arterial.
+Dosis usual: 25-200 mg/día vía oral, en 1-2 tomas.
+Contraindicaciones: Bradicardia severa, bloqueo AV de segundo o tercer grado, asma bronquial severa, shock cardiogénico.
+Efectos adversos: Bradicardia, fatiga, extremidades frías, broncoespasmo en pacientes susceptibles, disfunción eréctil.
+Interacciones: Potencia el efecto de otros antihipertensivos. Evitar con verapamilo IV. Puede enmascarar síntomas de hipoglicemia.
+
+ENALAPRIL
+Clase: Inhibidor de la enzima convertidora de angiotensina (IECA)
+Indicaciones: Hipertensión arterial, insuficiencia cardíaca, nefropatía diabética, prevención de eventos cardiovasculares.
+Mecanismo: Inhibe la conversión de angiotensina I a angiotensina II, produciendo vasodilatación y reducción de la aldosterona.
+Dosis usual: 5-40 mg/día vía oral, en 1-2 tomas.
+Contraindicaciones: Embarazo, angioedema previo por IECAs, estenosis bilateral de arterias renales, hiperpotasemia severa.
+Efectos adversos: Tos seca persistente (10-15% de pacientes), hipotensión primera dosis, hiperpotasemia, angioedema (raro pero grave).
+Interacciones: Riesgo de hiperpotasemia con diuréticos ahorradores de potasio. AINEs reducen su efecto antihipertensivo.
+
+LOSARTAN
+Clase: Antagonista del receptor de angiotensina II (ARA II)
+Indicaciones: Hipertensión arterial, nefropatía diabética tipo 2, insuficiencia cardíaca cuando no se toleran IECAs, reducción de riesgo de ACV en hipertensos con hipertrofia ventricular izquierda.
+Mecanismo: Bloquea selectivamente el receptor AT1 de angiotensina II, produciendo vasodilatación sin la tos característica de los IECAs.
+Dosis usual: 25-100 mg/día vía oral, en 1-2 tomas.
+Contraindicaciones: Embarazo, uso concomitante con aliskirén en diabéticos o con insuficiencia renal.
+Efectos adversos: Mareo, hiperpotasemia, deterioro de función renal. Menor incidencia de tos que IECAs.
+Interacciones: Similar a IECAs. No combinar con IECAs por riesgo de hipotensión e hiperpotasemia.
+
+AMLODIPINA
+Clase: Antagonista del calcio dihidropiridínico
+Indicaciones: Hipertensión arterial, angina de pecho estable, angina vasoespástica (Prinzmetal).
+Mecanismo: Bloquea los canales de calcio tipo L en músculo liso vascular, produciendo vasodilatación periférica y coronaria.
+Dosis usual: 5-10 mg/día vía oral, en una toma.
+Contraindicaciones: Hipotensión severa, estenosis aórtica grave, shock cardiogénico.
+Efectos adversos: Edema periférico (tobillo), cefalea, rubor facial, palpitaciones, mareo.
+Interacciones: Ciclosporina aumenta niveles de amlodipina. Simvastatina no debe superar 20mg cuando se usa con amlodipina.
+
+FUROSEMIDA
+Clase: Diurético de asa
+Indicaciones: Edema por insuficiencia cardíaca, cirrosis hepática, síndrome nefrótico, hipertensión arterial resistente, edema agudo de pulmón, hipercalcemia.
+Mecanismo: Inhibe el cotransportador Na-K-2Cl en la rama ascendente del asa de Henle, produciendo diuresis potente.
+Dosis usual: 20-80 mg/día vía oral o IV. En edema agudo de pulmón: 40-80 mg IV.
+Contraindicaciones: Anuria, hipersensibilidad a sulfonamidas, hipovolemia severa, hipopotasemia no corregida.
+Efectos adversos: Hipopotasemia, hiponatremia, deshidratación, ototoxicidad (dosis altas IV), hiperuricemia, hiperglicemia.
+Interacciones: Potencia toxicidad de aminoglucósidos y digoxina. AINEs reducen efecto diurético.
+
+ATORVASTATINA
+Clase: Inhibidor de la HMG-CoA reductasa (estatina)
+Indicaciones: Hipercolesterolemia, dislipidemia mixta, prevención primaria y secundaria de eventos cardiovasculares.
+Mecanismo: Inhibe competitivamente la HMG-CoA reductasa, reduciendo la síntesis hepática de colesterol y aumentando los receptores LDL.
+Dosis usual: 10-80 mg/día vía oral, en una toma (preferiblemente nocturna).
+Contraindicaciones: Enfermedad hepática activa, embarazo, lactancia.
+Efectos adversos: Mialgia (5-10%), elevación de transaminasas, rabdomiólisis (raro), cefalea, náuseas.
+Interacciones: Fibratos aumentan riesgo de miopatía. Inhibidores de CYP3A4 (claritromicina, ketoconazol) aumentan niveles.
+
+WARFARINA
+Clase: Anticoagulante oral, antagonista de vitamina K
+Indicaciones: Fibrilación auricular, tromboembolismo venoso (TVP, TEP), válvulas cardíacas mecánicas, prevención de ACV cardioembólico.
+Mecanismo: Inhibe la síntesis hepática de los factores de coagulación dependientes de vitamina K (II, VII, IX, X) y proteínas C y S.
+Dosis usual: Individualizada según INR objetivo. Generalmente 2-10 mg/día.
+Contraindicaciones: Sangrado activo, embarazo (primer y tercer trimestre), cirugía reciente de SNC.
+Efectos adversos: Sangrado (principal), necrosis cutánea (raro), síndrome del dedo azul.
+Interacciones: Múltiples — antibióticos, AINEs, amiodarona potencian efecto. Vitamina K, rifampicina lo reducen. Monitoreo frecuente de INR.
+Monitoreo: INR 2.0-3.0 para la mayoría de indicaciones. INR 2.5-3.5 para válvulas mecánicas.
+
+METFORMINA
+Clase: Biguanida, antidiabético oral
+Indicaciones: Diabetes mellitus tipo 2, síndrome de ovario poliquístico, prediabetes (uso off-label).
+Mecanismo: Reduce la producción hepática de glucosa, mejora la sensibilidad a la insulina en tejidos periféricos, no produce hipoglicemia.
+Dosis usual: 500-2550 mg/día vía oral con las comidas, en 2-3 tomas.
+Contraindicaciones: TFG < 30 mL/min, insuficiencia hepática grave, alcoholismo, uso de contraste yodado (suspender 48h antes y después).
+Efectos adversos: Náuseas, diarrea, dolor abdominal (transitorios al inicio), acidosis láctica (muy raro, en pacientes de riesgo), déficit de vitamina B12 a largo plazo.
+Interacciones: Alcohol aumenta riesgo de acidosis láctica. Contraste yodado requiere suspensión temporal.
+
+INSULINA GLARGINA
+Clase: Insulina basal análoga de acción prolongada
+Indicaciones: Diabetes mellitus tipo 1 y tipo 2 que requiere insulinoterapia basal.
+Mecanismo: Análogo de insulina humana con absorción lenta y perfil de acción plano de 24 horas, sin pico pronunciado.
+Dosis usual: Individualizada. Inicio: 0.1-0.2 UI/kg/día subcutánea, una vez al día (misma hora).
+Contraindicaciones: Hipoglicemia activa. Ajustar en insuficiencia renal y hepática.
+Efectos adversos: Hipoglicemia (menos frecuente que NPH), lipodistrofia en sitio de inyección, aumento de peso.
+Interacciones: Alcohol, betabloqueadores (enmascaran síntomas de hipoglicemia), IECAs pueden potenciar efecto hipoglicemiante.
+
+OMEPRAZOL
+Clase: Inhibidor de la bomba de protones (IBP)
+Indicaciones: Úlcera péptica, enfermedad por reflujo gastroesofágico (ERGE), síndrome de Zollinger-Ellison, erradicación de H. pylori, gastroprotección en pacientes con AINEs.
+Mecanismo: Inhibe irreversiblemente la H+/K+ ATPasa de las células parietales gástricas, suprimiendo la secreción ácida.
+Dosis usual: 20-40 mg/día vía oral, 30 minutos antes del desayuno.
+Contraindicaciones: Hipersensibilidad. Precaución en uso prolongado.
+Efectos adversos: Cefalea, diarrea, náuseas, déficit de magnesio y vitamina B12 en uso prolongado, mayor riesgo de infecciones entéricas.
+Interacciones: Reduce absorción de ketoconazol, itraconazol, hierro. Puede aumentar niveles de metotrexato.

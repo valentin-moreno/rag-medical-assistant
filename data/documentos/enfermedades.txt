@@ -1,0 +1,134 @@
+VADEMÉCUM MÉDICO DIGITAL — Base de Conocimiento Clínico
+========================================================
+Documento 2: Enfermedades y Diagnósticos
+Fuente: Guías clínicas internacionales adaptadas para uso educativo
+
+HIPERTENSIÓN ARTERIAL
+Definición: Elevación persistente de la presión arterial sistólica ≥ 140 mmHg y/o diastólica ≥ 90 mmHg.
+Clasificación:
+  - Normal: < 120/80 mmHg
+  - Elevada: 120-129 / < 80 mmHg
+  - Estadio 1: 130-139 / 80-89 mmHg
+  - Estadio 2: ≥ 140 / ≥ 90 mmHg
+  - Crisis hipertensiva: > 180/120 mmHg
+Síntomas: Generalmente asintomática ("asesino silencioso"). En crisis: cefalea occipital intensa, visión borrosa, epistaxis, mareo.
+Factores de riesgo: Obesidad, sedentarismo, dieta alta en sodio, tabaquismo, alcohol, antecedentes familiares, edad avanzada, estrés crónico.
+Complicaciones: Infarto de miocardio, ACV, insuficiencia renal, insuficiencia cardíaca, retinopatía hipertensiva, aneurisma aórtico.
+Tratamiento farmacológico de primera línea: IECAs (enalapril, lisinopril), ARA II (losartan, valsartan), antagonistas del calcio (amlodipina), diuréticos tiazídicos (hidroclorotiazida), betabloqueadores (metoprolol).
+Tratamiento no farmacológico: Reducción de peso, dieta DASH (baja en sodio), ejercicio aeróbico 150 min/semana, reducción de alcohol, dejar de fumar.
+
+DIABETES MELLITUS TIPO 2
+Definición: Trastorno metabólico crónico caracterizado por hiperglicemia secundaria a resistencia a la insulina y deficiencia relativa de insulina.
+Criterios diagnósticos (cualquiera de los siguientes):
+  - Glucosa en ayunas ≥ 126 mg/dL
+  - Glucosa 2h post-carga ≥ 200 mg/dL en PTOG
+  - HbA1c ≥ 6.5%
+  - Glucosa aleatoria ≥ 200 mg/dL con síntomas
+Síntomas clásicos: Poliuria, polidipsia, polifagia, pérdida de peso inexplicable, fatiga, visión borrosa, infecciones recurrentes, cicatrización lenta.
+Complicaciones agudas: Cetoacidosis diabética (DM1 principalmente), estado hiperosmolar hiperglicémico, hipoglicemia.
+Complicaciones crónicas: Nefropatía diabética, retinopatía diabética, neuropatía periférica, pie diabético, enfermedad cardiovascular acelerada.
+Tratamiento: Metformina (primera línea), inhibidores SGLT2 (empagliflozina, dapagliflozina), agonistas GLP-1 (semaglutida, liraglutida), inhibidores DPP-4 (sitagliptina), sulfonilureas, insulina.
+Metas: HbA1c < 7%, glucosa en ayunas 80-130 mg/dL, glucosa postprandial < 180 mg/dL.
+
+INSUFICIENCIA CARDÍACA
+Definición: Síndrome clínico en el que el corazón no puede bombear suficiente sangre para satisfacer las demandas metabólicas del organismo.
+Clasificación NYHA:
+  - Clase I: Sin limitación de actividad física
+  - Clase II: Ligera limitación — síntomas con actividad moderada
+  - Clase III: Marcada limitación — síntomas con actividad leve
+  - Clase IV: Síntomas en reposo
+Síntomas: Disnea (de esfuerzo, ortopnea, disnea paroxística nocturna), edema de miembros inferiores, fatiga, intolerancia al ejercicio, tos nocturna, distensión abdominal.
+Signos: Crepitantes pulmonares, edema con fosa, ingurgitación yugular, hepatomegalia, tercer ruido cardíaco.
+Causas frecuentes: Cardiopatía isquémica (causa más común), hipertensión arterial, valvulopatías, miocardiopatías, arritmias crónicas.
+Tratamiento: IECAs o ARA II, betabloqueadores (carvedilol, metoprolol), diuréticos (furosemida, espironolactona), inhibidores SGLT2, digoxina en casos seleccionados.
+Monitoreo: BNP o NT-proBNP, ecocardiograma (FEVI), función renal, electrolitos.
+
+INFARTO AGUDO DE MIOCARDIO
+Definición: Necrosis del músculo cardíaco por oclusión aguda de una arteria coronaria.
+Tipos:
+  - STEMI: Con elevación del segmento ST — oclusión total, emergencia máxima
+  - NSTEMI: Sin elevación del ST — oclusión parcial
+Síntomas: Dolor torácico opresivo irradiado a brazo izquierdo, mandíbula o espalda, diaforesis, náuseas, disnea, sensación de muerte inminente. En diabéticos y mujeres puede ser atípico (fatiga, epigastralgia).
+Diagnóstico: ECG (cambios ST-T), troponina elevada (I o T de alta sensibilidad), ecocardiograma.
+Tratamiento inmediato (STEMI): Aspirina 300mg + clopidogrel/ticagrelor, anticoagulación, angioplastia primaria (objetivo: < 90 min desde primer contacto médico) o fibrinólisis si no hay acceso a hemodinamia.
+Tratamiento post-IAM: Doble antiagregación (aspirina + clopidogrel/ticagrelor por 12 meses), betabloqueador, IECA, estatina de alta intensidad (atorvastatina 40-80mg).
+
+ENFERMEDAD PULMONAR OBSTRUCTIVA CRÓNICA (EPOC)
+Definición: Enfermedad prevenible y tratable caracterizada por limitación persistente al flujo aéreo, generalmente progresiva, asociada a respuesta inflamatoria crónica de la vía aérea al humo de tabaco y otras partículas nocivas.
+Diagnóstico: Espirometría post-broncodilatador con FEV1/FVC < 0.70.
+Clasificación GOLD (por FEV1):
+  - GOLD 1 (leve): FEV1 ≥ 80%
+  - GOLD 2 (moderado): 50% ≤ FEV1 < 80%
+  - GOLD 3 (grave): 30% ≤ FEV1 < 50%
+  - GOLD 4 (muy grave): FEV1 < 30%
+Síntomas: Disnea progresiva de esfuerzo, tos crónica con o sin expectoración, sibilancias, intolerancia al ejercicio. Exacerbaciones: aumento de disnea, cambio en esputo, fiebre.
+Factores de riesgo: Tabaquismo (causa principal — 85-90%), exposición a biomasa, contaminación ambiental, déficit de alfa-1 antitripsina.
+Tratamiento: Broncodilatadores de larga duración (LABA: salmeterol, formoterol; LAMA: tiotropio, umeclidinio), corticosteroides inhalados en exacerbadores frecuentes, rehabilitación pulmonar, oxigenoterapia domiciliaria si SpO2 < 88%.
+Vacunación: Influenza anual, antineumocócica.
+
+SEPSIS Y SHOCK SÉPTICO
+Definición (Sepsis-3):
+  - Sepsis: Disfunción orgánica potencialmente mortal causada por respuesta desregulada del huésped a la infección. Score SOFA ≥ 2.
+  - Shock séptico: Sepsis con hipotensión que requiere vasopresores para mantener PAM ≥ 65 mmHg y lactato > 2 mmol/L.
+Síntomas: Fiebre o hipotermia, taquicardia, taquipnea, alteración del estado mental, oliguria, hipotensión, piel moteada.
+Focos más frecuentes: Pulmonar (neumonía), urinario, abdominal, piel y tejidos blandos, catéter venoso central.
+Diagnóstico: Cultivos (hemocultivos x2, urocultivo, según foco), lactato, PCR, procalcitonina, hemograma, función renal y hepática.
+Tratamiento — Bundle 1 hora:
+  1. Medir lactato
+  2. Hemocultivos antes de antibióticos
+  3. Antibióticos de amplio espectro (meropenem, piperacilina-tazobactam)
+  4. Cristaloides 30 mL/kg si hipotensión o lactato ≥ 4
+  5. Vasopresores (norepinefrina) si hipotensión persiste
+Mortalidad: Sepsis 20-30%, shock séptico 40-50%.
+
+ACCIDENTE CEREBROVASCULAR (ACV)
+Definición: Interrupción súbita del flujo sanguíneo cerebral que produce déficit neurológico focal.
+Tipos:
+  - Isquémico (85%): Por trombosis o embolia
+  - Hemorrágico (15%): Por ruptura de vaso — intracerebral o subaracnoideo
+Síntomas (FAST):
+  - Face (cara): Asimetría facial
+  - Arms (brazos): Debilidad de un brazo
+  - Speech (habla): Dificultad para hablar (afasia, disartria)
+  - Time: Tiempo es cerebro — llamar emergencias inmediatamente
+Otros síntomas: Hemiparesia, hemiplejia, alteración visual, cefalea intensa súbita (hemorragia subaracnoidea — "la peor cefalea de la vida"), vértigo, incoordinación.
+Diagnóstico: TAC de cráneo sin contraste (urgente — descarta hemorragia), resonancia magnética (más sensible para isquemia temprana).
+Tratamiento ACV isquémico: Alteplasa IV (trombolisis) si < 4.5h de inicio y sin contraindicaciones, trombectomía mecánica si oclusión de gran vaso hasta 24h.
+Prevención secundaria: Antiagregación (aspirina + clopidogrel inicial, luego monoterapia), anticoagulación si FA, estatinas, control de factores de riesgo.
+
+NEUMONÍA
+Definición: Infección del parénquima pulmonar que produce consolidación alveolar.
+Tipos:
+  - NAC: Neumonía adquirida en la comunidad
+  - Nosocomial (NAVM): Asociada a ventilación mecánica o atención en salud
+Síntomas: Fiebre, tos productiva con esputo purulento o herrumbroso, disnea, dolor pleurítico, escalofríos, fatiga. En adultos mayores puede ser atípica (confusión, sin fiebre).
+Diagnóstico: Clínica + radiografía de tórax (consolidación), hemograma (leucocitosis), proteína C reactiva elevada, hemocultivos en casos graves.
+Patógenos frecuentes NAC: Streptococcus pneumoniae (más común), Mycoplasma pneumoniae, Legionella, virus (influenza, SARS-CoV-2).
+Severidad (CURB-65): Confusión, Urea > 7, FR ≥ 30, PA < 90/60, edad ≥ 65. 0-1: ambulatorio, 2: hospitalización, ≥ 3: considerar UCI.
+Tratamiento NAC ambulatoria: Amoxicilina o azitromicina. Hospitalizada: ceftriaxona + azitromicina o levofloxacina. UCI: ceftriaxona + azitromicina + oseltamivir si influenza.
+
+INSUFICIENCIA RENAL AGUDA (IRA)
+Definición: Deterioro abrupto de la función renal con aumento de creatinina ≥ 0.3 mg/dL en 48h, o ≥ 1.5 veces el valor basal en 7 días, o diuresis < 0.5 mL/kg/h por ≥ 6h.
+Clasificación etiológica:
+  - Prerrenal (55-60%): Por hipoperfusión — deshidratación, sepsis, IC, AINEs, IECAs
+  - Renal intrínseca (35-40%): Necrosis tubular aguda (isquémica o nefrotóxica), glomerulonefritis, vasculitis
+  - Posrenal (5%): Obstrucción urinaria — HBP, litiasis, tumor
+Síntomas: Oliguria o anuria, edema, disnea, náuseas, confusión (uremia), hipertensión.
+Diagnóstico: Creatinina y BUN, electrolitos, uroanálisis, ecografía renal (descarta obstrucción), relación BUN/creatinina.
+Tratamiento: Tratar causa subyacente, reanimación con fluidos (prerrenal), suspender nefrotóxicos, diuréticos si sobrecarga, diálisis si indicación (uremia grave, hiperpotasemia refractaria, acidosis severa, sobrecarga de volumen).
+
+FIBRILACIÓN AURICULAR
+Definición: Arritmia supraventricular caracterizada por activación auricular caótica con respuesta ventricular irregularmente irregular.
+Clasificación:
+  - Primer episodio detectado
+  - Paroxística: Termina espontáneamente < 7 días
+  - Persistente: Dura > 7 días o requiere cardioversión
+  - Larga duración persistente: > 12 meses
+  - Permanente: Aceptada sin intento de cardioversión
+Síntomas: Palpitaciones, disnea, fatiga, mareo, síncope, dolor torácico. Puede ser asintomática y detectarse incidentalmente.
+Complicaciones: ACV cardioembólico (riesgo 5x mayor), insuficiencia cardíaca, miocardiopatía por taquicardia.
+Tratamiento:
+  - Control de frecuencia: Betabloqueadores, diltiazem, digoxina
+  - Control del ritmo: Amiodarona, flecainida, cardioversión eléctrica
+  - Anticoagulación: Según score CHA2DS2-VASc ≥ 2 (hombres) o ≥ 3 (mujeres) — ACODs (apixaban, rivaroxaban, dabigatran) preferidos sobre warfarina.
+Score CHA2DS2-VASc: IC (1), HTA (1), edad ≥ 75 (2), DM (1), ACV previo (2), enfermedad vascular (1), edad 65-74 (1), sexo femenino (1).
