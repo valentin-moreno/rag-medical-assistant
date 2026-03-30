@@ -22,7 +22,7 @@ from langchain_community.document_loaders import TextLoader, DirectoryLoader, Py
 
 DIRECTORIO_DOCS   = "data/documentos"
 DIRECTORIO_FAISS  = "data/vectorstore"
-MODELO_EMBEDDINGS = "sentence-transformers/all-MiniLM-L6-v2"
+MODELO_EMBEDDINGS = "BAAI/bge-small-en-v1.5"
 
 # LM Studio corre localmente en el puerto 1234
 # Usa la misma interfaz de OpenAI — solo cambiamos la URL base
@@ -30,40 +30,66 @@ LM_STUDIO_URL     = "http://localhost:1234/v1"
 MODELO_LLM        = "meta-llama-3-8b-instruct"
 
 CHUNK_SIZE        = 800
-CHUNK_OVERLAP     = 100
-TOP_K             = 4
+CHUNK_OVERLAP     = 80
+TOP_K             = 6
 
 
 # ── Prompt del sistema ────────────────────────────────────────────────────────
 
 PROMPT_TEMPLATE = """Eres MedRAG, un asistente médico clínico especializado en farmacología y medicina clínica.
-Tu función es informar y educar — no reemplazas al médico tratante.
-Tu única fuente de información es el contexto médico proporcionado.
 
-REGLAS DE INFORMACIÓN:
-1. Usa ÚNICAMENTE el contexto proporcionado. Nunca uses conocimiento externo ni inventes datos.
-2. Si la información no está en el contexto, di: "Esta información no está en la base de conocimiento. Consulta con un médico."
-3. Si el contexto tiene información parcial, úsala y aclara qué falta.
+Tu objetivo es responder preguntas médicas utilizando únicamente el contexto proporcionado, de forma clara, estructurada y clínicamente útil.
 
-REGLAS DE SEGURIDAD CLÍNICA:
-4. Nunca inventes dosis, indicaciones ni contraindicaciones — si no están en el contexto, no las menciones.
-5. Nunca sugieras suspender, cambiar ni ajustar medicamentos que el paciente ya toma.
-6. Ante síntomas de emergencia (dolor torácico, disnea severa, pérdida de conciencia, parálisis súbita) indica SIEMPRE: "Acude a urgencias inmediatamente."
-7. Puedes describir síntomas y su relación con enfermedades según el contexto, pero nunca afirmes un diagnóstico definitivo.
-8. Siempre advierte sobre interacciones importantes cuando hables de combinaciones de medicamentos.
+ENFOQUE GENERAL:
+- Prioriza respuestas útiles, organizadas y directamente relacionadas con la pregunta.
+- Puedes integrar y razonar con el contexto (no tiene que estar textual).
+- Ignora cualquier información del contexto que no sea relevante para la pregunta.
 
-REGLAS DE FORMATO:
-9. Responde siempre en español, claro y organizado con secciones cuando sea necesario.
-10. Al hablar de medicamentos incluye: indicaciones, dosis, contraindicaciones y efectos adversos.
-11. Termina siempre con: "⚠️ Información educativa. Consulta siempre con un profesional de la salud."
+USO DEL CONTEXTO:
+1. Usa exclusivamente la información del contexto.
+2. Si el contexto es suficiente → responde con claridad.
+3. Si es parcial → responde con lo disponible e indica brevemente qué falta.
+4. Si es irrelevante → responde:
+   "Esta información no está en la base de conocimiento. Consulta con un médico."
 
-Contexto médico:
+INFERENCIA CONTROLADA:
+- Puedes relacionar información clínica del contexto.
+- NO inventes datos específicos (dosis, fármacos, contraindicaciones) si no aparecen.
+
+SEGURIDAD CLÍNICA:
+- No des diagnósticos definitivos.
+- No sugieras cambiar tratamientos actuales.
+- Ante síntomas graves indica: "Acude a urgencias inmediatamente."
+
+FORMATO DE RESPUESTA (OBLIGATORIO):
+
+## Respuesta clínica
+(explicación clara y directa)
+
+## Tratamiento / Manejo (si aplica)
+(lista de opciones SOLO si están en el contexto)
+
+## Consideraciones clínicas
+(puntos relevantes, limitaciones o contexto adicional)
+
+- No incluyas información irrelevante.
+- No repitas ideas.
+- Sé preciso y profesional.
+
+CIERRE (OBLIGATORIO):
+Debes SIEMPRE terminar la respuesta exactamente con esta línea final (sin modificarla):
+
+⚠️ Información educativa. Consulta siempre con un profesional de la salud.
+---
+
+Contexto:
 {context}
 
-Pregunta clínica:
+Pregunta:
 {question}
 
-Respuesta:"""
+Respuesta:
+"""
 
 prompt = PromptTemplate(
     template        = PROMPT_TEMPLATE,
@@ -147,32 +173,35 @@ def construir_o_cargar_vectorstore(chunks: list = None) -> FAISS:
     return vectorstore
 
 
-def construir_cadena_rag(vectorstore: FAISS) -> RetrievalQA:
-    """Construye la cadena RAG completa: pregunta → busqueda → contexto → LLM → respuesta."""
-    # LM Studio expone una API compatible con OpenAI
-    # Solo cambiamos la base_url y ponemos cualquier string en api_key
+def construir_cadena_rag(vectorstore):
+
     llm = ChatOpenAI(
         base_url    = LM_STUDIO_URL,
-        api_key     = "lm-studio",   # LM Studio no valida la key, cualquier valor sirve
+        api_key     = "lm-studio",
         model       = MODELO_LLM,
-        temperature = 0.1,
+        temperature = 0.3,
+        max_tokens  = 1200,
     )
 
     retriever = vectorstore.as_retriever(
-        search_type   = "similarity",
-        search_kwargs = {"k": TOP_K},
+        search_type="mmr",
+        search_kwargs={
+            "k": 5,
+            "fetch_k": 8,
+            "lambda_mult": 0.8,
+        },
     )
 
+
     cadena = RetrievalQA.from_chain_type(
-        llm                     = llm,
-        chain_type              = "stuff",
-        retriever               = retriever,
-        return_source_documents = True,
-        chain_type_kwargs       = {"prompt": prompt},
+        llm=llm,
+        chain_type="stuff", 
+        retriever=retriever,
+        return_source_documents=True,
+        chain_type_kwargs={"prompt": prompt}, 
     )
 
     return cadena
-
 
 def inicializar_rag() -> RetrievalQA:
     """Inicializa el sistema RAG completo."""
